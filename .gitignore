@@ -26,3 +26,7 @@
 *.exe
 *.out
 *.app
+
+#自己写的
+*.vcxproj
+*.filters
