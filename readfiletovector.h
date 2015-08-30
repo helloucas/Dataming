@@ -9,7 +9,7 @@
 using namespace std;
  
 
-void readfiletovec(string filename)
+vector<string> readfiletovec(string filename)
 {
 	ifstream  infile;
 	infile.open("file.txt", ios::in);
@@ -28,13 +28,22 @@ void readfiletovec(string filename)
 		{
 			tmp.push_back(temp[i]);
 		}
+		
 	}
 	for (int i = 0; i < tmp.size(); i++)
 	{
 		cout << tmp[i] << "\t";
-		cout << endl;
 	}
+	cout << endl;
+	cout << endl;
+
+	
 	infile.close();
+
+	return tmp;
+
+
+
 }
 
 

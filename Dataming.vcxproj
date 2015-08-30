@@ -81,7 +81,7 @@
   <ItemGroup>
     <ClInclude Include="Apriori.h" />
     <ClInclude Include="datamining.h" />
-    <ClInclude Include="findfrequent1item.h" />
+    <ClInclude Include="frequent.h" />
     <ClInclude Include="readfiletovector.h" />
     <ClInclude Include="split.h" />
     <ClInclude Include="stdafx.h" />
