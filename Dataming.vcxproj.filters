@@ -27,12 +27,27 @@
     <ClInclude Include="datamining.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Apriori.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="readfiletovector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="findfrequent1item.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="split.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Dataming.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Apriori.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
