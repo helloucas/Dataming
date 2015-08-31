@@ -11,11 +11,6 @@
 #include <tchar.h>
 #include<string>
 using namespace std;
-typedef struct  item
-{
-	string    first;
-	int         second;
-}Item;
 
 
 // TODO:  在此处引用程序需要的其他头文件

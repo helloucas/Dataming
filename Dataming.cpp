@@ -6,17 +6,18 @@
 #include<string>
 #include<vector>
 #include<map>
-#include"readfiletovector.h"
-#include"frequent.h"
-#include"split.h"
+#include"Apriori.h"
 
 using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	vector<string>temp = readfiletovec("file.txt");
-	frequent1(temp);
+	Apriori  a(5,2);
+	a.getitem("file.txt");
+//	a.display(1, item);
 
+	
+	
 
 
 	return 0;
